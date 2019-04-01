@@ -42,9 +42,16 @@ for(j=i;j<k;j++)
     }
 }
 }
+if(k==0)
+{
+    printf("unique");
+}
+else
+{
 for(i=0;i<k;i++)
 {
     printf("%d ",b[i]);
+}
 }
     return 0;
 }
